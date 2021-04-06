@@ -9,10 +9,15 @@ python 3.6.8  + tensorflow-gpu 1.9.0 + opencv-python 4.1.0.25 + numpy 1.16.3 + s
 
 文件介绍：
 detection_model 模型文件
+
 utils 图片标记类包
+
 data  label标签（分类的类别）
+
 Get_Weight.py 串口通信（获取重量）
+
 tf_test.py   主文件（图像识别）
+
 5Kg电子秤程序 （hx 711x芯片进行电压信号的转换）
 
 启动方式：
